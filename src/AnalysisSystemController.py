@@ -11,7 +11,7 @@ class AnalysisSystemController:
         self.initialize_stocks()
 
     def initialize_stocks(self):
-        read = reader.FileReader("small_tickers.txt")
+        read = reader.FileReader("tickers.txt")
         tickers = read.read_file()
 
         for ticks in tickers:
@@ -21,6 +21,7 @@ class AnalysisSystemController:
             self.list.insert(pair)
         self.list.display()
         self.list.top_graded_patterns()
+        print("test")
 
 
 if __name__ == "__main__":
