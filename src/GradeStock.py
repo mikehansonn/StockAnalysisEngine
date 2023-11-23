@@ -75,8 +75,8 @@ class GradeStock:
                 points = []
                 slopes = []
                 for j in range(18):
-                    mean = mean + stock_data[index]
-                    points.append([index, stock_data[index]])
+                    mean += stock_data.iloc[index]
+                    points.append([index, stock_data.iloc[index]])
                     index = index - i
 
                     if (j + 1) % 3 == 0:
