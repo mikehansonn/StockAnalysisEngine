@@ -21,7 +21,6 @@ class AnalysisSystemController:
             self.list.insert(pair)
         self.list.display()
         self.list.top_graded_patterns()
-        print("test")
 
 
 if __name__ == "__main__":
