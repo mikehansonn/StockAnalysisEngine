@@ -1,5 +1,6 @@
 import yfinance as yf
 import matplotlib.pyplot as plt
+import numpy as np
 from datetime import datetime, timedelta
 import pandas as pd
 
@@ -11,7 +12,7 @@ ticker_symbols = ["META", "AAPL", "AMZN", "NVDA", "AMD", "GOOG", "LMT", "TSLA"]
 
 # Set the date range for the last week
 end_date = datetime.now()
-start_date = end_date - timedelta(days=3)
+start_date = end_date - timedelta(days=7)
 print(start_date)
 
 # Create a figure with subplots for each stock
@@ -24,11 +25,10 @@ for i, ticker_symbol in enumerate(ticker_symbols):
     col = i % 2
 
     # Fetch minute-by-minute historical data
-    stock_data = yf.download(ticker_symbol, start=start_date, end=end_date, interval="2m")
-    for stock in stock_data['Close']:
-        print(stock)
+    stock_data = yf.download(ticker_symbol, start=start_date, end=end_date, interval="15m")
+    x_values = np.arange(len(stock_data))
     # Plot the closing prices for the stock
-    axes[row, col].plot(stock_data.index, stock_data['Close'], label=f"{ticker_symbol} Price", color='blue')
+    axes[row, col].plot(x_values, stock_data['Close'], label=f"{ticker_symbol} Price", color='blue')
     axes[row, col].set_title(f"{ticker_symbol}")
     axes[row, col].legend()
     axes[row, col].grid(True)
