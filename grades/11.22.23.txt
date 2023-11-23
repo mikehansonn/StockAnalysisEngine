@@ -1,0 +1,22 @@
+11.22.23
+
+Top Graders:
+([96, 'GIS', ['accending_triangle', 1, 8], ['bullish_wedge', 1, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 5, 9]])
+([91, 'NRG', ['triple_bottom_pos', 2, 8]])
+([91, 'JNPR', ['triple_bottom_pos', 4, 8], ['triple_bottom_pos', 5, 9]])
+([90, 'CPB', ['triple_bottom_pos', 1, 8]])
+([89, 'VTRS', ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 3, 8]])
+([89, 'SLB', ['triple_bottom_pos', 5, 8]])
+([89, 'CAG', ['triple_bottom_pos', 4, 8]])
+([88, 'KHC', ['triple_bottom_pos', 4, 8]])
+([88, 'HPQ', ['triple_bottom_pos', 4, 8], ['triple_bottom_pos', 5, 8]])
+([87, 'WFC', ['accending_triangle', 2, 8], ['bullish_wedge', 2, 8], ['triple_bottom_pos', 2, 8]])
+
+Top Solo Trends
+[76, 'AEP', ['falling_wedge', 4, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 4, 10]]
+[70, 'KVUE', ['falling_wedge', 2, 8], ['triple_bottom_pos', 2, 10], ['triple_bottom_pos', 4, 9]]
+[66, 'IPG', ['falling_wedge', 5, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 5, 10]]
+[54, 'NWS', ['falling_wedge', 5, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 5, 10]]
+[50, 'SCHW', ['falling_wedge', 3, 8], ['triple_bottom_pos', 3, 10]]
+[42, 'HSIC', ['bullish_flag', 2, 10], ['bullish_wedge', 2, 8], ['symmetrical_triangle_pos', 2, 8]]
+[38, 'LHX', ['falling_wedge', 3, 8], ['triple_bottom_pos', 3, 10]]
