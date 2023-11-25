@@ -32,3 +32,9 @@ Top Solo Trends
 [38, 'APH', ['falling_wedge', 2, 8], ['triple_bottom_pos', 1, 9], ['triple_bottom_pos', 2, 10]]
 [28, 'GLW', ['falling_wedge', 4, 8], ['triple_bottom_pos', 4, 10]]
 [18, 'COO', ['falling_wedge', 1, 8], ['triple_bottom_pos', 1, 10]]
+
+Top 10 Trades:
+Post Day 1: -.16 +.56 +.40 +.86 +.92
+
+Solo Trends:
+Post Day 1: +.83 +.09
