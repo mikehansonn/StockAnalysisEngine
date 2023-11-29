@@ -1,0 +1,43 @@
+Project Description:
+- Looking at some of Fortune 500 companies and looking for patterns in them.
+- Also look at the NASDAQ, S&P, Dow Jones
+
+Pattern Recognition
+- Initially using only basic data, and then branching out.
+- Looking for longstanding dips and rises
+- Look to match not only dips and rises, but historical stock data to current
+
+Build Config
+- Have a general text file with stocks that I want to look at and data to build off
+- We want to monitor stocks through the trading day to identify patterns
+
+Classes
+- Read File, put data into DS
+    - Implement a grading system that grades a stock and updates the DS to store according to stock grades
+    - Iterate over those stocks consistently prioritizing the stocks in the top 10%, but making sure to
+      update those in case of any big changes
+    - So pretty much, grade stocks that are currently in pattern high, while grading ones that are not in
+      a pattern low to attempt to capitalize off that
+- Grading System
+    - Grade files by comparing against other patterns and try to find similarities
+    - When grading stocks, do the best 10%, then 20%, then 30% etc. This ensures the stocks with the most likely
+      patterns are the ones getting looked at.
+    - This way, we can pull the top 10% off the top, then put it back in and it might recalibrate the top tickers
+    - When adding back to the PQ, be sure to add the records back after we hit our desired percent. Put the data
+      into an extra array, then add that array back to the PQ to make sure we don't hit the same stock over and over
+- DS, implement a Priority Queue
+    - Using a PQ, we are able to keep the more relevant elements at the top
+- Stock Object
+    - Hold general data from yfinance
+    - Grade
+    - Most Likely pattern
+    - Ticker
+    - A compare_to and to_string
+
+Classes (Without Detail)        Completion?
+- Manager
+- Priority Queue                Completed with KVPair
+- Stock Object class            Complete for now, need to add data about the stock
+- Grader
+- Grade Analyzer
+- File Reader                   Completed, returns array of tickers

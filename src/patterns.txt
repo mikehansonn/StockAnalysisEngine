@@ -1,0 +1,6 @@
+accending_triangle,True,True,0,.35
+bullish_flag,True,True,-.35,-.35
+bullish_wedge,True,True,-.35,0
+symmetrical_triangle_pos,True,True,-.35,.35
+falling_wedge,False,True,-.35,0
+triple_bottom_pos,False,True,0,0

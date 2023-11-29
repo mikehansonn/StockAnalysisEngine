@@ -1,0 +1,11 @@
+S&P 500 Tracker
+
+Option to run the algorithm again
+Option to change the time the algorithm looks at
+Add differnt indexes, dow, F500, etc
+
+once ran, display results of top 10 stocks
+allow the option to see more
+also display any stock that received a perfect grade
+
+from here, allow the user to click on a single stock to look more into it
