@@ -1,0 +1,23 @@
+11.29.23
+
+Top Graders:
+([96, 'STT', ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 5, 8]])
+([96, 'MOS', ['triple_bottom_pos', 2, 9]])
+([96, 'PEAK', ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 5, 8]])
+([95, 'FTV', ['accending_triangle', 3, 8], ['bullish_wedge', 3, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 5, 9]])
+([94, 'IPG', ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 8]])
+([94, 'DD', ['accending_triangle', 3, 8], ['bullish_wedge', 3, 8], ['triple_bottom_pos', 3, 8]])
+([91, 'VTR', ['triple_bottom_pos', 4, 9]])
+([91, 'SYF', ['triple_bottom_pos', 5, 8]])
+([91, 'MET', ['triple_bottom_pos', 2, 8]])
+([91, 'FAST', ['accending_triangle', 3, 8], ['bullish_wedge', 3, 8], ['triple_bottom_pos', 1, 9], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 5, 9]])
+
+Top Solo Trends
+[80, 'PCAR', ['falling_wedge', 2, 8], ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 10], ['triple_bottom_pos', 3, 9], ['triple_bottom_pos', 4, 10], ['triple_bottom_pos', 5, 8]]
+[75, 'PFE', ['falling_wedge', 3, 8], ['triple_bottom_pos', 3, 10]]
+[75, 'K', ['falling_wedge', 5, 8], ['triple_bottom_pos', 1, 9], ['triple_bottom_pos', 2, 9], ['triple_bottom_pos', 5, 10]]
+[72, 'NKE', ['bullish_flag', 5, 10], ['bullish_wedge', 5, 8], ['symmetrical_triangle_pos', 5, 8]]
+[70, 'CSCO', ['falling_wedge', 1, 8], ['triple_bottom_pos', 1, 10], ['triple_bottom_pos', 3, 9], ['triple_bottom_pos', 4, 8]]
+[64, 'FDX', ['bullish_flag', 3, 10], ['bullish_wedge', 3, 8], ['symmetrical_triangle_pos', 3, 8]]
+[60, 'PKG', ['bullish_flag', 3, 10], ['bullish_wedge', 3, 8], ['symmetrical_triangle_pos', 3, 8], ['triple_bottom_pos', 1, 8]]
+[58, 'SLB', ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 4, 10]]
