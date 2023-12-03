@@ -1,3 +1,4 @@
+import os
 # read file data, and return an array of tickers
 
 class FileReader:
@@ -6,7 +7,11 @@ class FileReader:
 
     def read_file(self):
         tickers = []
-        with open(self.filename, 'r') as file:
+        # Get the absolute path of the current script
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        # Specify the relative path to your text file
+        file_path = os.path.join(script_dir, self.filename)
+        with open(file_path, 'r') as file:
             for line in file:
                 tickers.append(line.rstrip())
 

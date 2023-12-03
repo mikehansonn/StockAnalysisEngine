@@ -1,6 +1,6 @@
-import LinkedList as ll
-import GradeStock as sg
-import FileReader as reader
+from src import LinkedList as ll
+from src import GradeStock as sg
+from src import FileReader as reader
 # https://twitter.com/chartmojo/status/1549750112628264965
 
 

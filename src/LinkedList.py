@@ -1,4 +1,4 @@
-import Stock
+from src import Stock
 
 
 class Node:

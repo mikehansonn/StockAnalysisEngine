@@ -1,5 +1,5 @@
 import unittest
-import GradeStock as Grade
+from src import GradeStock as Grade
 
 
 class MyTestCase(unittest.TestCase):

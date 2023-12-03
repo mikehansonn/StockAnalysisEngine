@@ -1,4 +1,5 @@
-import Stock as stock
+from src import Stock as stock
+import os
 
 
 def create_slope(points):
@@ -91,7 +92,13 @@ class GradeStock:
         return final_results
 
     def read_trends(self):
-        with open("patterns.txt", 'r') as file:
+        # Get the absolute path of the current script
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Specify the relative path to your text file
+        file_path = os.path.join(script_dir, 'patterns.txt')
+        
+        with open(file_path, 'r') as file:
             for line in file:
                 split = line.rstrip().split(',')
                 string_value = split[0]  # The first element as a string
