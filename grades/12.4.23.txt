@@ -1,0 +1,43 @@
+12.4.23
+
+Top Graders:
+([108, 'F', ['accending_triangle', 1, 8], ['accending_triangle', 3, 8], ['bullish_wedge', 1, 8], ['bullish_wedge', 3, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 3, 8]])
+([103, 'HBAN', ['accending_triangle', 3, 8], ['bullish_wedge', 3, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 5, 8]])
+([99, 'AMCR', ['accending_triangle', 3, 8], ['bullish_wedge', 3, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 4, 9]])
+([97, 'RF', ['accending_triangle', 3, 8], ['bullish_wedge', 3, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 5, 8]])
+([96, 'WFC', ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 5, 8]])
+([96, 'CCL', ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 5, 8]])
+([96, 'AOS', ['accending_triangle', 3, 8], ['bullish_wedge', 3, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 4, 9]])
+([95, 'BK', ['accending_triangle', 5, 8], ['bullish_wedge', 5, 8], ['triple_bottom_pos', 5, 8]])
+([94, 'JCI', ['triple_bottom_pos', 2, 8]])
+([94, 'GE', ['accending_triangle', 3, 8], ['bullish_wedge', 3, 8], ['triple_bottom_pos', 3, 8]])
+
+Top Solo Trends
+[93, 'KVUE', ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 4, 10], ['triple_bottom_pos', 5, 8]]
+[87, 'SEE', ['falling_wedge', 4, 8], ['triple_bottom_pos', 2, 9], ['triple_bottom_pos', 3, 9], ['triple_bottom_pos', 4, 10], ['triple_bottom_pos', 5, 9]]
+[76, 'HST', ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 3, 9], ['triple_bottom_pos', 4, 10], ['triple_bottom_pos', 5, 9]]
+[76, 'FOX', ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 9], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 4, 10], ['triple_bottom_pos', 5, 9]]
+[76, 'FOXA', ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 9], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 4, 10], ['triple_bottom_pos', 5, 9]]
+[74, 'JNPR', ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 3, 9], ['triple_bottom_pos', 4, 10], ['triple_bottom_pos', 5, 8]]
+[74, 'FTV', ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 9], ['triple_bottom_pos', 4, 10], ['triple_bottom_pos', 5, 8]]
+[72, 'PPL', ['falling_wedge', 2, 8], ['triple_bottom_pos', 1, 9], ['triple_bottom_pos', 2, 10], ['triple_bottom_pos', 5, 8]]
+[72, 'PARA', ['falling_wedge', 4, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 4, 10]]
+[72, 'KIM', ['falling_wedge', 4, 8], ['triple_bottom_pos', 3, 9], ['triple_bottom_pos', 4, 10], ['triple_bottom_pos', 5, 8]]
+[70, 'IPG', ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 4, 10], ['triple_bottom_pos', 5, 8]]
+[70, 'GEN', ['falling_wedge', 1, 8], ['triple_bottom_pos', 1, 10], ['triple_bottom_pos', 4, 8], ['triple_bottom_pos', 5, 8]]
+[70, 'FE', ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 9], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 4, 10]]
+[70, 'BXP', ['falling_wedge', 4, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 4, 10], ['triple_bottom_pos', 5, 8]]
+[60, 'EXC', ['falling_wedge', 2, 8], ['triple_bottom_pos', 1, 9], ['triple_bottom_pos', 2, 10], ['triple_bottom_pos', 4, 8]]
+[60, 'CPT', ['falling_wedge', 2, 8], ['triple_bottom_pos', 2, 10]]
+[58, 'QRVO', ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 4, 10]]
+[58, 'APH', ['falling_wedge', 4, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 9], ['triple_bottom_pos', 4, 10]]
+[56, 'CSGP', ['falling_wedge', 2, 8], ['triple_bottom_pos', 2, 10]]
+[55, 'MAR', ['falling_wedge', 1, 8], ['triple_bottom_pos', 1, 10]]
+[53, 'FDS', ['bullish_flag', 4, 8], ['falling_wedge', 2, 8], ['falling_wedge', 4, 8], ['triple_bottom_pos', 2, 10]]
+[47, 'GL', ['bullish_flag', 5, 10], ['bullish_wedge', 5, 8], ['symmetrical_triangle_pos', 5, 8], ['triple_bottom_pos', 2, 9]]
+[44, 'ITW', ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 4, 10]]
+[42, 'XEL', ['falling_wedge', 2, 8], ['triple_bottom_pos', 2, 10]]
+[40, 'UPS', ['falling_wedge', 4, 8], ['triple_bottom_pos', 3, 9], ['triple_bottom_pos', 4, 10]]
+[30, 'DLR', ['falling_wedge', 1, 8], ['triple_bottom_pos', 1, 10]]
+[30, 'CME', ['falling_wedge', 1, 8], ['triple_bottom_pos', 1, 10]]
+[18, 'FDX', ['falling_wedge', 1, 8], ['triple_bottom_pos', 1, 10]]
