@@ -1,6 +1,7 @@
 from src import LinkedList as ll
 from src import GradeStock as sg
 from src import FileReader as reader
+import pickle
 # https://twitter.com/chartmojo/status/1549750112628264965
 
 
@@ -11,12 +12,15 @@ class AnalysisSystemController:
         self.initialize_stocks()
 
     def initialize_stocks(self):
-        read = reader.FileReader("tickers.txt")
+        open('current_grades.pkl', 'wb').close()
+        read = reader.FileReader('tickers.txt')
         tickers = read.read_file()
 
         for ticks in tickers:
             grade = self.grader.grade_manager(ticks)
             print(grade)
+            with open('current_grades.pkl', 'ab') as file:
+                pickle.dump(grade, file)
             pair = ll.Node(grade[0], grade)
             self.list.insert(pair)
         self.list.display()
