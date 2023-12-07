@@ -1,0 +1,33 @@
+12.6.23
+
+Top Graders:
+([92, 'NWS', ['triple_bottom_pos', 1, 9], ['triple_bottom_pos', 2, 8]])
+([91, 'TAP', ['triple_bottom_pos', 1, 9], ['triple_bottom_pos', 3, 9], ['triple_bottom_pos', 4, 8], ['triple_bottom_pos', 5, 9]])
+([90, 'BAX', ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 4, 8]])
+([88, 'EW', ['triple_bottom_pos', 1, 9]])
+([86, 'ROL', ['triple_bottom_pos', 5, 8]])
+([84, 'WY', ['triple_bottom_pos', 5, 8]])
+([84, 'AIG', ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 4, 8]])
+([82, 'MDT', ['accending_triangle', 2, 8], ['bullish_wedge', 2, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 4, 8], ['triple_bottom_pos', 5, 8]])
+([82, 'CAG', ['accending_triangle', 1, 8], ['bullish_wedge', 1, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 4, 8]])
+([81, 'A', ['bullish_flag', 2, 10], ['bullish_flag', 4, 10], ['bullish_wedge', 2, 8], ['bullish_wedge', 4, 8], ['symmetrical_triangle_pos', 2, 8], ['symmetrical_triangle_pos', 4, 8]])
+
+Top Solo Trends
+[81, 'A', ['bullish_flag', 2, 10], ['bullish_flag', 4, 10], ['bullish_wedge', 2, 8], ['bullish_wedge', 4, 8], ['symmetrical_triangle_pos', 2, 8], ['symmetrical_triangle_pos', 4, 8]]
+[76, 'PM', ['falling_wedge', 3, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 10]]
+[75, 'MMM', ['falling_wedge', 3, 8], ['triple_bottom_pos', 2, 9], ['triple_bottom_pos', 3, 10]]
+[74, 'F', ['falling_wedge', 3, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 10]]
+[72, 'KHC', ['falling_wedge', 5, 8], ['triple_bottom_pos', 2, 9], ['triple_bottom_pos', 4, 9], ['triple_bottom_pos', 5, 10]]
+[72, 'XRAY', ['falling_wedge', 2, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 10], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 5, 9]]
+[63, 'CSX', ['falling_wedge', 3, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 10], ['triple_bottom_pos', 4, 9]]
+[62, 'FCX', ['falling_wedge', 3, 8], ['triple_bottom_pos', 3, 10]]
+[60, 'WBA', ['falling_wedge', 3, 8], ['triple_bottom_pos', 1, 9], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 10]]
+[60, 'KR', ['falling_wedge', 3, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 10]]
+[59, 'RVTY', ['bullish_flag', 2, 10], ['bullish_wedge', 2, 8], ['symmetrical_triangle_pos', 2, 8]]
+[57, 'CCL', ['falling_wedge', 3, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 10], ['triple_bottom_pos', 4, 8]]
+[56, 'CRL', ['bullish_flag', 2, 10], ['bullish_wedge', 2, 8], ['symmetrical_triangle_pos', 2, 8], ['triple_bottom_pos', 5, 8]]
+[54, 'HAL', ['falling_wedge', 3, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 10]]
+[52, 'ABBV', ['falling_wedge', 5, 8], ['triple_bottom_pos', 1, 9], ['triple_bottom_pos', 5, 10]]
+[40, 'IFF', ['falling_wedge', 3, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 3, 10]]
+[32, 'IR', ['falling_wedge', 1, 8], ['triple_bottom_pos', 1, 10], ['triple_bottom_pos', 2, 8]]
+[18, 'NTAP', ['falling_wedge', 1, 8], ['triple_bottom_pos', 1, 10]]
