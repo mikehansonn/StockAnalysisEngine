@@ -1,0 +1,23 @@
+12.7.23
+
+Top Graders:
+([126, 'CHD', ['bullish_flag', 3, 8], ['bullish_wedge', 2, 8], ['bullish_wedge', 3, 8], ['bullish_wedge', 4, 8], ['symmetrical_triangle_pos', 3, 8], ['falling_wedge', 2, 8]])
+([109, 'MNST', ['accending_triangle', 1, 8], ['accending_triangle', 3, 8], ['bullish_wedge', 1, 8], ['bullish_wedge', 3, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 4, 9]])
+([103, 'KHC', ['accending_triangle', 1, 8], ['bullish_wedge', 1, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 9]])
+([99, 'NWSA', ['accending_triangle', 3, 8], ['bullish_wedge', 3, 8], ['triple_bottom_pos', 3, 8]])
+([99, 'MRO', ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 8]])
+([98, 'WBA', ['accending_triangle', 1, 8], ['bullish_wedge', 1, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 8]])
+([96, 'INVH', ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 5, 8]])
+([95, 'PHM', ['triple_bottom_pos', 5, 9]])
+([95, 'MET', ['accending_triangle', 4, 8], ['bullish_wedge', 4, 8], ['triple_bottom_pos', 2, 9], ['triple_bottom_pos', 4, 8], ['triple_bottom_pos', 5, 9]])
+([94, 'KMI', ['triple_bottom_pos', 2, 8]])
+
+Top Solo Trends
+[84, 'CAT', ['bullish_flag', 1, 10], ['bullish_wedge', 1, 8], ['symmetrical_triangle_pos', 1, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 8]]
+[83, 'CCL', ['falling_wedge', 5, 8], ['triple_bottom_pos', 2, 9], ['triple_bottom_pos', 3, 9], ['triple_bottom_pos', 5, 10]]
+[76, 'HPE', ['bullish_flag', 4, 10], ['bullish_wedge', 4, 8], ['symmetrical_triangle_pos', 4, 8], ['triple_bottom_pos', 2, 8]]
+[72, 'NEM', ['falling_wedge', 4, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 3, 8], ['triple_bottom_pos', 4, 10]]
+[72, 'EMN', ['bullish_flag', 4, 10], ['bullish_wedge', 4, 8], ['symmetrical_triangle_pos', 4, 8]]
+[70, 'HCA', ['bullish_flag', 3, 8], ['bullish_wedge', 3, 10], ['symmetrical_triangle_pos', 3, 8], ['falling_wedge', 3, 8]]
+[66, 'CTVA', ['falling_wedge', 5, 8], ['triple_bottom_pos', 3, 9], ['triple_bottom_pos', 5, 10]]
+[49, 'FFIV', ['bullish_flag', 4, 10], ['bullish_wedge', 4, 8], ['symmetrical_triangle_pos', 4, 8]]

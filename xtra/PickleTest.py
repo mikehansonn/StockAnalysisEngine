@@ -8,7 +8,7 @@ data3 = [['AAPL', 31], ['GOOG', 12]]
 with open('data.pkl', 'wb') as file:
     pickle.dump(data, file)
 
-#append to file
+# append to file
 with open('data.pkl', 'ab') as file:
     pickle.dump(data3, file)
     pickle.dump(data2, file)

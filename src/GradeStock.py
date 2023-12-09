@@ -21,15 +21,19 @@ def create_slope(points):
 # checked for and make a final grade for each TDPair that is not just true or false
 def compare_data_to_trends(trend, data):
     points = 0
+    # check inital trend
     if (trend[1] and data[0][0] > 0) or (not trend[1] and data[0][0] < 0):
         points += 1
 
     mins = []
     maxs = []
 
+    # check volatility over last 5 intervals
     for j in range(len(data)):
         mins.append([j, data[j][1]])
         maxs.append([j, data[j][2]])
+
+    # check general shape of graph
     min_slope = create_slope(mins)
     max_slope = create_slope(maxs)
     if abs(max_slope[0] - trend[3]) < .1:
@@ -37,6 +41,7 @@ def compare_data_to_trends(trend, data):
     if abs(min_slope[0] - trend[4]) < .1:
         points += 2
 
+    # if the points of the trend is too low, set it to 0
     if points <= 2:
         return 0
 
@@ -67,6 +72,7 @@ class GradeStock:
         splits = [1, 2, 3, 4, 5]
         self.ticker = ticker
         self.object = stock.Stock(ticker)
+        print(self.object.stock_data)
         stock_data = self.object.stock_data["Close"]
         final_results = [0, ticker]  # total score in 0; Trends with score >= 9 are noted (11 is max), along with their
         for trend in self.trends:

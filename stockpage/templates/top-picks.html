@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Top Picks</title>
+    <link rel="stylesheet", href="{{ url_for('static', filename='top-picks-style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<header>
+    <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/top-picks">TOP PICKS</a></li>
+        <li><a href="/search">SEARCH</a></li>
+    </ul>
+</header>
+<body>
+    <h1 class="top-grade-header">Top Current Graded Stocks {{ date }}</h1>
+    <div class="split-bar"></div>
+    <ul class="top-picks">
+        {% for item in data %}
+            <li class="top-picks-item">
+                <div class="top10-container">
+                    <a class="symbol" href="https://finance.yahoo.com/chart/{{ item[0] }}">{{ item[0] }}</a>
+                </div>
+                <div class="top10-container">
+                    <a class="data-check" style="color: {% if item[3] > 0 %}rgb(2, 222, 2){% elif item[3] < 0 %}red{% else %}grey{% endif %};">{{ item[2] }}</a>
+                    <a class="data-check" style="color: {% if item[3] > 0 %}rgb(2, 222, 2){% elif item[3] < 0 %}red{% else %}grey{% endif %};">({{ item[3] }})%</a>
+                </div>
+                <ul class="style-container">
+                    {% for part in item[4] %}
+                        <li class="price-check" style="background-color: {% if part == 10 %}#216e39{% elif part == 9 %}#40c463{% elif part == 8 %}#9be9a8{% else %}#ebedf0{% endif %};"></li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

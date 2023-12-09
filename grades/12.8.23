@@ -1,0 +1,14 @@
+Top Graders:
+([91, 'IRM', ['bullish_flag', 3, 9], ['bullish_flag', 4, 8], ['triple_bottom_pos', 1, 8]])
+([89, 'WY', ['triple_bottom_pos', 2, 8]])
+([89, 'PEP', ['accending_triangle', 1, 8], ['bullish_wedge', 1, 8], ['triple_bottom_pos', 1, 8]])
+([81, 'REG'])
+([81, 'PPL', ['triple_bottom_pos', 4, 9]])
+([81, 'CAG'])
+([81, 'AMCR', ['triple_bottom_pos', 1, 8]])
+([79, 'FE', ['triple_bottom_pos', 4, 8]])
+([76, 'PCG', ['triple_bottom_pos', 5, 8]])
+([76, 'HPQ', ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 8], ['triple_bottom_pos', 4, 8]])
+
+Top Solo Trends
+[55, 'BRO', ['accending_triangle', 1, 8], ['bullish_wedge', 1, 8], ['falling_wedge', 2, 8], ['triple_bottom_pos', 1, 8], ['triple_bottom_pos', 2, 10]]

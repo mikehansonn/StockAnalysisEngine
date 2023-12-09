@@ -1,6 +1,7 @@
 from src import LinkedList as ll
 from src import GradeStock as sg
 from src import FileReader as reader
+from datetime import date
 import pickle
 # https://twitter.com/chartmojo/status/1549750112628264965
 
@@ -23,6 +24,7 @@ class AnalysisSystemController:
                 pickle.dump(grade, file)
             pair = ll.Node(grade[0], grade)
             self.list.insert(pair)
+        print(date.today())
         self.list.display()
         self.list.top_graded_patterns()
 
