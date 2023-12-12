@@ -66,8 +66,8 @@ body h1 {
 .top-stocks li {
     text-align: center;
     display: block;
-    width: 200px;
-    height: 60px;
+    width: 250px;
+    height: 90px;
     background-color: #F2F2F2;
     border-radius: 7px;
     padding-top: 5px;
@@ -86,20 +86,19 @@ body h1 {
 }
 
 .item0 {
-    color: #65CCB8;
-    font-family: 'Rubik', sans-serif;
-}
-
-.item1 {
     color: #182628;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
 }
 
 .item2 {
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .item3 {
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .split-bar {

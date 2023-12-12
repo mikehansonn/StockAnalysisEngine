@@ -19,20 +19,59 @@
     <ul class="top-picks">
         {% for item in data %}
             <li class="top-picks-item">
-                <div class="top10-container">
-                    <a class="symbol" href="https://finance.yahoo.com/chart/{{ item[0] }}">{{ item[0] }}</a>
+                <div class="top-picks-flex">
+                    <div class="top10-container">
+                        <a class="symbol" href="https://finance.yahoo.com/chart/{{ item[1] }}">{{ item[1] }}</a>
+                    </div>
+                    <div class="top10-container">
+                        <div class="top10-container-column">
+                            <a class="data-check" style="color: {% if item[3] > 0 %}rgb(2, 222, 2){% elif item[3] < 0 %}red{% else %}grey{% endif %};">{{ item[2] }}</a>
+                            <a class="data-check" style="color: {% if item[3] > 0 %}rgb(2, 222, 2){% elif item[3] < 0 %}red{% else %}grey{% endif %};">{{ item[4] }}({{ item[3] }})%</a>
+                        </div>
+                    </div>
+                    <ul class="style-container">
+                        {% for part in item[5] %}
+                            <li class="price-check" style="background-color: {% if part >= 30 %}#216e39{% elif part >= 20 %}#30a14e{% elif part >= 10 %}#40c463{% elif part >= 8 %}#9be9a8{% else %}#ebedf0{% endif %};"></li>
+                        {% endfor %}
+                    </ul>
                 </div>
-                <div class="top10-container">
-                    <a class="data-check" style="color: {% if item[3] > 0 %}rgb(2, 222, 2){% elif item[3] < 0 %}red{% else %}grey{% endif %};">{{ item[2] }}</a>
-                    <a class="data-check" style="color: {% if item[3] > 0 %}rgb(2, 222, 2){% elif item[3] < 0 %}red{% else %}grey{% endif %};">({{ item[3] }})%</a>
+                <div class="top-picks-container">
+                    <progress class="top-picks-bar" value="{{ item[0] }}" max="125"></progress>
                 </div>
-                <ul class="style-container">
-                    {% for part in item[4] %}
-                        <li class="price-check" style="background-color: {% if part == 10 %}#216e39{% elif part == 9 %}#40c463{% elif part == 8 %}#9be9a8{% else %}#ebedf0{% endif %};"></li>
-                    {% endfor %}
-                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+    <h1 class="top-grade-header">High-Risk Picks</h1>
+    <div class="split-bar"></div>
+    <ul class="picks-with-top-grades">
+        {% for item in risk %}
+            <li class="high-risk-item">
+                <div class="top-picks-flex">
+                    <div class="risk-container">
+                        <a class="risk-symbol" href="https://finance.yahoo.com/chart/{{ item[1] }}">{{ item[1] }}</a>
+                    </div>
+                    <div class="risk-container">
+                        <div class="risk-container-column">
+                            <a class="risk-data-check" style="color: {% if item[3] > 0 %}rgb(2, 222, 2){% elif item[3] < 0 %}red{% else %}grey{% endif %};">{{ item[2] }}</a>
+                            <a class="risk-data-check" style="color: {% if item[3] > 0 %}rgb(2, 222, 2){% elif item[3] < 0 %}red{% else %}grey{% endif %};">{{ item[4] }}({{ item[3] }})%</a>
+                        </div>
+                    </div>
+                    <ul class="risk-style-container">
+                        {% for part in item[5] %}
+                            <li class="risk-price-check" style="background-color: {% if part >= 35 %}#216e39{% elif part >= 25 %}#30a14e{% elif part >= 15 %}#40c463{% elif part >= 10 %}#9be9a8{% else %}#ebedf0{% endif %};"></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="top-picks-container" style="width: 70%;">
+                    <progress class="top-picks-bar" value="{{ item[0] }}" max="125"></progress>
+                </div>
             </li>
         {% endfor %}
     </ul>
 </body>
+    <script>
+        var progressValue = 50;
+        var progressBar = document.getElementById("topPicksBar");
+        progressBar.style.width = progressValue + "%";
+    </script>
 </html>

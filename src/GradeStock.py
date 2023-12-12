@@ -1,4 +1,5 @@
 from src import Stock as stock
+import numpy as np
 import os
 
 
@@ -72,9 +73,9 @@ class GradeStock:
         splits = [1, 2, 3, 4, 5]
         self.ticker = ticker
         self.object = stock.Stock(ticker)
-        print(self.object.stock_data)
         stock_data = self.object.stock_data["Close"]
-        final_results = [0, ticker]  # total score in 0; Trends with score >= 9 are noted (11 is max), along with their
+        day_change = self.get_day_change()
+        final_results = [0, ticker, self.get_current_price(), day_change[0], day_change[1], [0, 0, 0, 0, 0]]  # total score in 0; Trends with score >= 9 are noted (11 is max), along with their
         for trend in self.trends:
             for i in splits:
                 index = len(stock_data) - 1
@@ -94,7 +95,7 @@ class GradeStock:
                 final_results[0] += result
 
                 if result >= 8:
-                    final_results.append([trend[0], i, result])
+                    final_results[5][i - 1] += result
         return final_results
 
     def read_trends(self):
@@ -114,3 +115,23 @@ class GradeStock:
                 float_value2 = float(split[4])  # Convert to float
 
                 self.trends.append((string_value, bool_value1, bool_value2, float_value1, float_value2))
+
+    def get_current_price(self):
+        return np.round(self.object.stock_data['Close'].iloc[-1], 2)
+
+    def get_day_change(self):
+        data = self.object.stock_data
+        end_price = data['Close'].iloc[-1]
+        date = data.index[-1].strftime('%Y-%m-%d')
+        for i in range(len(data) - 1, -1, -1):
+            date_check = data.index[i].strftime('%Y-%m-%d')
+            if date != date_check:
+                break
+            initial_price = data['Close'][i]
+
+        change = end_price - initial_price
+        change_divided = change / initial_price
+        change_divided = change_divided * 100
+
+        return np.round(change, 2), np.round(change_divided, 2)
+

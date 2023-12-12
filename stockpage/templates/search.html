@@ -2,8 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Search</title>
+    <link rel="stylesheet", href="{{ url_for('static', filename='search-style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="{{ url_for('static', filename='autocomplete.js') }}"></script>
 </head>
+<header>
+    <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/top-picks">TOP PICKS</a></li>
+        <li><a href="/search">SEARCH</a></li>
+    </ul>
+</header>
 <body>
-
+    <div class="search-bar-container">
+        <input type="text" id="search-input" class="search-input-bar" placeholder="Search...">
+    </div>
 </body>
 </html>

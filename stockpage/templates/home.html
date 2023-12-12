@@ -24,12 +24,11 @@
         {% for item in data %}
             <li>
                 <div>
-                    <a class="item0">{{ item[0] }}:</a>
-                    <a class="item1">{{ item[1] }}</a></a>
+                    <a class="item0" href="{{ item[3] }}">{{ item[0] }}</a>
                 </div>
                 <div>
-                    <a class="item2" style="color: {% if item[3] > 0 %}rgb(2, 222, 2){% elif item[3] < 0 %}red{% else %}grey{% endif %};">{{ item[2] }}</a>
-                    <a class="item3" style="color: {% if item[3] > 0 %}rgb(2, 222, 2){% elif item[3] < 0 %}red{% else %}grey{% endif %};">({{ item[3] }})%</a>
+                    <a class="item2" style="color: {% if item[2] > 0 %}rgb(2, 222, 2){% elif item[2] < 0 %}red{% else %}grey{% endif %};">{{ item[1] }}</a>
+                    <a class="item3" style="color: {% if item[2] > 0 %}rgb(2, 222, 2){% elif item[2] < 0 %}red{% else %}grey{% endif %};">({{ item[2] }})%</a>
                 </div>
             </li>
         {% endfor %}

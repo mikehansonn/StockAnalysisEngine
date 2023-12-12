@@ -26,6 +26,10 @@ for i, ticker_symbol in enumerate(ticker_symbols):
 
     # Fetch minute-by-minute historical data
     stock_data = yf.download(ticker_symbol, start=start_date, end=end_date, interval="15m")
+    for index, row in stock_data.iterrows():
+        date = index.strftime('%Y-%m-%d')
+        close_price = row['Close']
+        print(f"Date: {date}, Close Price: {close_price}")
     x_values = np.arange(len(stock_data))
     # Plot the closing prices for the stock
     axes[row, col].plot(x_values, stock_data['Close'], label=f"{ticker_symbol} Price", color='blue')

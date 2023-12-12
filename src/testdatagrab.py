@@ -2,13 +2,14 @@ import pickle
 
 loaded_data = []
 
-with open('current_grades.pkl', 'rb') as file:
+with open('top_grades.pkl', 'rb') as file:
     try:
         while True:
             data = pickle.load(file)
-            print(data)
             loaded_data.append(data)
     except EOFError:
         pass
 
-print(loaded_data)
+
+for item in loaded_data:
+    print(item)

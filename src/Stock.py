@@ -20,8 +20,8 @@ class Stock:
         self.pattern_index = index
 
     def generate_stock_data(self):
-        end_date = datetime.now() - timedelta(days=7)
-        start_date = end_date - timedelta(days=14)
+        end_date = datetime.now()
+        start_date = end_date - timedelta(days=7)
 
         self.stock_data = yf.download(self.ticker, start=start_date, end=end_date, interval="15m")  # 130 current reads
 

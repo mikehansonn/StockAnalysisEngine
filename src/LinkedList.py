@@ -1,4 +1,5 @@
 from src import Stock
+import pickle
 
 
 class Node:
@@ -25,19 +26,25 @@ class LinkedList:
             current.next = node
 
     def display(self):
+        open('top_grades.pkl', 'wb').close()
         print("\nTop Graders: ")
         current = self.head
         for i in range(10):
             print(f"({current.value})")
+            with open('top_grades.pkl', 'ab') as file:
+                pickle.dump(current.value, file)
             current = current.next
 
     def top_graded_patterns(self):
         print("\nTop Solo Trends")
+        open('risk_grades.pkl', 'wb').close()
         current = self.head
         while current is not None:
             if len(current.value) > 2:
-                for i in range(2, len(current.value), 1):
-                    if current.value[i][2] == 10:
+                for item in current.value[5]:
+                    if item > 18:
+                        with open('risk_grades.pkl', 'ab') as file:
+                            pickle.dump(current.value, file)
                         print(current.value)
                         break
 
