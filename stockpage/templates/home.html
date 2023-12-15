@@ -15,7 +15,7 @@
     </ul>           
 </header>
 <body>
-    <h1 class="home-heading">Standard and Poor 500 </h1>
+    <h1 class="home-heading">S&P 500</h1>
     <h1 class="home-heading-2">Trend Analysis</h1>
     <div style="padding-top: 20px;">
         <div class="split-bar"></div>
@@ -24,11 +24,11 @@
         {% for item in data %}
             <li>
                 <div>
-                    <a class="item0" href="{{ item[3] }}">{{ item[0] }}</a>
+                    <a class="item0" href="{{ item[5] }}">{{ item[1] }}</a>
                 </div>
-                <div>
-                    <a class="item2" style="color: {% if item[2] > 0 %}rgb(2, 222, 2){% elif item[2] < 0 %}red{% else %}grey{% endif %};">{{ item[1] }}</a>
-                    <a class="item3" style="color: {% if item[2] > 0 %}rgb(2, 222, 2){% elif item[2] < 0 %}red{% else %}grey{% endif %};">({{ item[2] }})%</a>
+                <div class="home-column-box">
+                    <a class="item2" style="color: {% if item[3] > 0 %}rgb(2, 222, 2){% elif item[3] < 0 %}red{% else %}grey{% endif %};">{{ item[2] }}</a>
+                    <a class="item3" style="color: {% if item[3] > 0 %}rgb(2, 222, 2){% elif item[3] < 0 %}red{% else %}grey{% endif %};">{{ item[3] }}({{ item[4] }})%</a>
                 </div>
             </li>
         {% endfor %}

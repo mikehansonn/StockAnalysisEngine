@@ -44,7 +44,7 @@ body h1 {
 
 .home-heading {
     color: #3B945E;
-    padding-top: 225px; 
+    padding-top: 125px;
     font-size: 60px;
 }
 
@@ -67,7 +67,7 @@ body h1 {
     text-align: center;
     display: block;
     width: 250px;
-    height: 90px;
+    height: 120px;
     background-color: #F2F2F2;
     border-radius: 7px;
     padding-top: 5px;
@@ -107,4 +107,10 @@ body h1 {
     background-color: #3B945E;
     margin: 0 auto;
     width: 40%;
+}
+
+.home-column-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -2,7 +2,7 @@ import pickle
 
 loaded_data = []
 
-with open('top_grades.pkl', 'rb') as file:
+with open('frontpage.pkl', 'rb') as file:
     try:
         while True:
             data = pickle.load(file)

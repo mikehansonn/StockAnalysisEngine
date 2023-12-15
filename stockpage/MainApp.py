@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request
-from src import AnalysisSystemController as asc, CompleteDataReader  # this works for the time being, dont have use for it yet
+from src import AnalysisSystemController as asc, CompleteDataReader, IndexGrabber
 
 app = Flask(__name__)
 
@@ -16,9 +16,7 @@ def double_data():
 
 
 def get_home_data():
-    return [['Dow Jones', 36247.87, 0.36, 'https://finance.yahoo.com/chart/%5EDJI']
-            , ['S&P 500', 4604.37, 0.41, 'https://finance.yahoo.com/chart/%5EGSPC']
-            , ['Nasdaq', 14403.97, -0.45, 'https://finance.yahoo.com/chart/%5EIXIC']]
+    return CompleteDataReader.read_data_file_into_list(r'C:\Individual_Projects\StockAnalysisProject\src\frontpage.pkl')
 
 
 @app.route('/')
@@ -54,8 +52,23 @@ def read_tickers():
 def autocomplete():
     symbols = read_tickers()
     term = request.args.get('term')
-    results = [s for s in symbols if term.lower() in s.lower()]
-    return jsonify(results)
+    pre_results = [s for s in symbols if term.lower() in s.lower()]
+
+    results = []
+    for item in pre_results:
+        results.append(return_search_data(item))
+    return jsonify({'results': results})
+
+
+# add reading in the data to the search route function
+def return_search_data(symbol):
+    data = CompleteDataReader.read_data_file_into_list(
+        r'C:\Individual_Projects\StockAnalysisProject\src\current_grades.pkl')
+
+    for item in data:
+        if item[1].upper() == symbol.upper():
+            return item[1].upper()
+        return "None"
 
 
 if __name__ == '__main__':
