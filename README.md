@@ -1,5 +1,52 @@
-# StockAnalysisEngine
+# SPX Radar
 
-The focus of this project was to work with a few different Python APIs and learn more about the world of web development using Flask. The backend piece of this project is using yfinance to extract real-time data which is then processed to look for common trends that are seen in the world of finance. The current algorithm uses a fairly harsh grading system to ensure the picks are more accurate with little risk. Since this operation produces a decent amount of picks, I also designed another part that looks for stocks that are more risky to provide the user with a wide range.
+Demo URL: https://www.spxradar.xyz/
 
-This project has been a good experience and has given me a pretty good introduction to yfinance and built on my Flask knowledge along with general web-development skills. For the future of this project, I plan to add the option to receive personalized texts and emails based on specific user inputs and positive outliers that the algorithm produces.
+Demo Video: https://github.com/user-attachments/assets/f2560a6c-957e-471a-b4ac-f7443bd5d297
+
+SPX Radar is an intelligent trend analysis platform for S&P 500 stocks, designed to support investors by identifying patterns and trends that might not be immediately visible. The application provides real-time analysis and grading of stocks, offering insights for both conservative and high-risk investment strategies.
+
+## Technologies:
+* Python (Flask)
+* HTML/CSS
+* yfinance
+* PythonAnywhere
+* Pickle
+* Git
+
+## Notable Features:
+* Real-time Stock Analysis:
+  * Updates every 15 minutes
+  * Comprehensive grading system (0-125 scale)
+  * Future trend projections (5-hour window)
+  * Continuous data collection and analysis
+
+* Stock Grading System:
+  * Top-rated stock recommendations
+  * High-risk opportunity identification
+  * Multiple timeframe analysis
+  * Custom grading algorithm
+
+* Search and Analysis Tools:
+  * S&P 500 stock search functionality
+  * Individual stock grade checking
+  * Time-specific investment windows
+  * Highlighted opportunity frames
+
+* Automated Features:
+  * 15-minute data refresh cycle
+  * Real-time market data integration
+  * Continuous trend analysis
+  * Automated grade calculations
+
+## Data Collection
+* Real-time data fetching using yfinance
+* 15-minute update intervals
+* Pickle file storage for data persistence
+* Automated trend analysis
+
+## Usage Notes
+* Tool is designed as a supplementary analysis aid
+* Not intended as a standalone investment strategy
+* Focuses on S&P 500 stocks only
+* Best used in conjunction with other research methods
